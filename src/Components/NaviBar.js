@@ -15,7 +15,6 @@ const Styles = styled.div`
     }
     .nav-bar-custom {
       color: #2f3640;
-      margin-left: 20%;
     }
   }
 `;
@@ -38,8 +37,23 @@ export const NaviBar = () => (
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
+            <Nav.Link href="/siberianproducts" className="nav-bar-custom">
+              Siberian Larch Products
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link href="/gallery" className="nav-bar-custom">
+              Gallery
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
             <Nav.Link href="/contacts" className="nav-bar-custom">
               Contacts
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link href="/makeaninquiry" className="nav-bar-custom">
+              Make an inquiry
             </Nav.Link>
           </Nav.Item>
         </Nav>
